@@ -6,15 +6,15 @@ manufacturer:
 
 ### App locking
 
-Locking the app in the Recent app may avoid the app to be killed in background and the *Battery optimisation* setting to be reverted.
+Locking the app in the Recent apps may prevent the app from being killed in the background and the *Battery optimisation* setting from being reverted.
 <br>
 
-This is however not 100%. You may have to check system settings every once in a while. See [a bug report filed to OnePlus](https://forums.oneplus.com/threads/in-battery-optimisation-apps-are-getting-automatically-switched-from-not-optimised-to-optimised.849162/).
+This is however, not 100%. You may have to check system settings every once in a while. See [a bug report filed to OnePlus](https://forums.oneplus.com/threads/in-battery-optimisation-apps-are-getting-automatically-switched-from-not-optimised-to-optimised.849162/).
 
 
-1. Start the app you want to protect. Go to *Recent apps* - swipe up and hold for opening recent apps (Apps switcher).
+1. Start the app you want to protect. Go to *Recent apps* - swipe up and hold to open recent apps (Apps switcher).
 
-2. Long press anywhere on the window and tap the *Lock* button on the upper right corner of the app.
+2. Long-press anywhere on the window and tap the *Lock* button on the upper right corner of the app.
 
 3. The locked app will have the closed padlock icon.
 
@@ -27,9 +27,9 @@ This is however not 100%. You may have to check system settings every once in a 
 
 - Turn off **System Settings > Apps > Gear Icon > Special Access > Battery Optimization**.
 <br>
-<small>**WARNING:** Recently OnePlus phones started reverting this setting randomly for random apps. So if you set it to be *not optimized*, the next day it may be back to *optimized*. 
+<small>**WARNING:** Recently, OnePlus phones started reverting this setting randomly for random apps. So if you set it to be *not optimized*, the next day it may be back to *optimized*. 
 <br>
-To avoid the system to automatically revert the *not optimized* setting, you must also lock the app into the 'Recent App' list, see the solution above or [here](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7).
+To avoid the system from automatically reverting the *not optimized* setting, you must also lock the app into the 'Recent App' list; see the solution above or [here](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7).
 <br>
 
 
@@ -49,7 +49,7 @@ App Auto-Launch (on some OnePlus phones) essentially prevents apps from working 
 
 ### Enhanced / Advanced optimization
 
-- OnePlus 6 and further: 
+- OnePlus 6 and later: 
 <br>
 **System settings > Battery > Battery optimization > (three dots) > Advanced optimization**. 
 <br>
@@ -58,7 +58,7 @@ You'll see two options there. Both are enabled by default:
 1. Deep optimization or Adaptive Battery
 <br>
 This is the main app killer. 
-If you need any apps to run in background, disable it.
+If you need any apps to run in the background, disable it.
 
 2. Sleep standby optimization
 <br>
@@ -74,7 +74,7 @@ This setting will prevent push notifications from being delivered.
 <br>
 Turn off **System settings > Battery > Battery optimization > (three dots) > Enhanced optimization**.
 <br>
-<small>**NOTE:** This should help with the problem where you lose Bluetooth connection to your smartwatch / fitness tracker (e.g. for sleep tracking).</small>
+<small>**NOTE:** This should help with the problem where you lose Bluetooth connection to your smartwatch/fitness tracker (e.g. for sleep tracking).</small>
 
 <div class="img-block">
   <img src="/assets/img/ss_oneplus6_setting_sleepstandby.jpg">
@@ -82,7 +82,7 @@ Turn off **System settings > Battery > Battery optimization > (three dots) > Enh
 
 ### Recent apps clearing behaviour
 
-Normally when you swipe an app away, it won't close. Android handles that well on its own. On OnePlus this may however work in a different way. Recent app clear behaviour manager might be set up in a way that swiping the app to close will kill it.
+Normally when you swipe an app away, it won't close. Android handles that well on its own. On OnePlus, this may, however, work in a different way. The recent app clear behaviour manager might be set up in a way that swiping the app to close will kill it.
 
 <div class="img-block">
   <img src="/assets/img/ss_oneplus_2a.jpg">
